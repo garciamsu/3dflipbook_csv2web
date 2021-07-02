@@ -1,28 +1,245 @@
-﻿curso,nombre,url,x,y
-Grupo C,Aimneth Velandria - Docente,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_001.png,88,236
-Grupo C,Lisandra Moncada - Docente,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_002.png,790,236
-Grupo C,Carlos Toro,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_003.png,38,506
-Grupo C,María Stella Prato,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_004.png,223,506
-Grupo C,Ignacio Vega,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_005.png,418,506
-Grupo C,Martina Colmenares,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_006.png,608,506
-Grupo C,Piero Pérez,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_007.png,813,506
-Grupo C,Patricia Doza,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_008.png,38,704
-Grupo C,Juan F. García,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_009.png,223,704
-Grupo C,Charles Zambrano,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_010.png,418,704
-Grupo C,Maximiliano Ramírez,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_011.png,608,704
-Grupo C,Isabela Pérez,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_012.png,813,704
-Grupo C,Ignacio Chacón,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_013.png,38,892
-Grupo C,Samantha Rodríguez,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_014.png,223,892
-Grupo C,Aaron Lozano,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_015.png,418,892
-Grupo C,Emilianna Aguirre,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_016.png,608,892
-Grupo C,Marcelo López,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_017.png,813,892
-Grupo C,Amanda Matos,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_018.png,38,1091
-Grupo C,Tomás Chacón,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_019.png,223,1091
-Grupo C,Luna Paolini,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_020.png,418,1091
-Grupo C,Attila Toth,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_021.png,608,1091
-Grupo C,Natalia García,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_022.png,813,1091
-Grupo C,Samuel Nieto,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_023.png,38,1279
-Grupo C,Catalina Sánchez,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_024.png,223,1279
-Grupo C,Diego Gutiérrez,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_025.png,418,1279
-Grupo C,Rebeca Contreras,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_026.png,608,1279
-Grupo C,Varick Lohrengel,https://anuario.montessorivirtual.org/wp-content/uploads/2021/07/ANU2021_021_IMG_027.png,813,1279
+﻿pagina;tipo;descripcion;nombre;campo;extension;x;y;ancho;alto;letra;nombre_visible
+pag03;audio;Himno;;ANU2021_003_AUD_001;mp3;;;;;;SI
+pag05;audio;fondo musical;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag07;audio;fondo musical;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag09;audio;fondo musical;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag11;audio;fondo musical;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag11;audio;fondo musical;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag13;audio;fondo musical;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag15;audio;MATERNAL;;ANU2021_015_AUD_001;mp3;;;;;;SI
+pag15;gif;MATERNAL;;ANU2021_015_ANI_001;gif;;;100%;;;SI
+pag15;boton_imagen;MATERNAL;Andrés Paz;ANU2021_015_IMG_001;png;7;392;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Juan D. Ramírez;ANU2021_015_IMG_002;png;413;399;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Federica Georgi;ANU2021_015_IMG_003;png;816;385;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Nina Figueroa;ANU2021_015_IMG_004;png;216;498;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Jimena García;ANU2021_015_IMG_005;png;617;490;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Jesús Rincones;ANU2021_015_IMG_006;png;10;611;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Catalina Toro;ANU2021_015_IMG_007;png;413;646;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Juliana Gómez;ANU2021_015_IMG_008;png;816;613;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Luca Roca;ANU2021_015_IMG_009;png;222;729;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Rómulo Utrera;ANU2021_015_IMG_010;png;618;729;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Carlos Pérez;ANU2021_015_IMG_011;png;22;837;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Victoria González;ANU2021_015_IMG_012;png;416;892;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Mariangel Pahmer;ANU2021_015_IMG_013;png;816;835;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Renata Gutiérrez;ANU2021_015_IMG_014;png;220;948;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Elias Uzcategui;ANU2021_015_IMG_015;png;616;954;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Serena Hernández;ANU2021_015_IMG_016;png;20;1057;200px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Luciana Badillo;ANU2021_015_IMG_017;png;211;311;180px;30px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Paola Chacón - Docente Titular;ANU2021_015_IMG_018;png;304;1259;180px;50px;1.4em;SI
+pag15;boton_imagen;MATERNAL;Bárbara Ramírez - Docente Auxiliar;ANU2021_015_IMG_018;png;528;1259;180px;50px;1.4em;SI
+pag17;audio;MATERNAL;;ANU2021_017_AUD_001;mp3;;;;;;SI
+pag17;gif;MATERNAL;;ANU2021_017_ANI_001;gif;600;950;50%;;;SI
+pag17;boton_imagen;GRUPO A;Gloria Vivas - Docente;ANU2021_017_IMG_001;png;440;338;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Fernando Millán;ANU2021_017_IMG_002;png;50;338;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Luis Grazía D.;ANU2021_017_IMG_003;png;245;338;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Victoria Valero;ANU2021_017_IMG_004;png;635;338;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Manuela Sulbarán;ANU2021_017_IMG_005;png;830;338;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Jian M. Nieto;ANU2021_017_IMG_006;png;50;567;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Pedro P. Morales;ANU2021_017_IMG_007;png;245;567;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Rafaela Duque;ANU2021_017_IMG_008;png;440;567;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Maximo de Filippis;ANU2021_017_IMG_009;png;635;567;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Carlota García;ANU2021_017_IMG_010;png;830;567;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Grace Pineda;ANU2021_017_IMG_011;png;50;791;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Nayua Kassam;ANU2021_017_IMG_012;png;245;791;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Elias Davila;ANU2021_017_IMG_013;png;440;791;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Victoria Zambrano;ANU2021_017_IMG_014;png;635;791;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Arleth Cantor;ANU2021_017_IMG_015;png;830;791;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Lorenzo Soci;ANU2021_017_IMG_016;png;340;1234;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Joaquín Vega;ANU2021_017_IMG_017;png;245;1014;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Marco López;ANU2021_017_IMG_018;png;440;1014;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Leah Molina;ANU2021_017_IMG_019;png;635;1014;150px;50px;1.4em;SI
+pag17;boton_imagen;GRUPO A;Jorge Manrique;ANU2021_017_IMG_020;png;548;1234;150px;50px;1.4em;SI
+pag19;audio;GRUPO B;;ANU2021_019_AUD_001;mp3;;;;;;SI
+pag19;gif;GRUPO B;;ANU2021_019_ANI_001;gif;;;100%;;;SI
+pag19;boton_imagen;GRUPO B;Mónica Buitrago - Docente;ANU2021_019_IMG_001;png;422;1199;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Renata Fontana;ANU2021_019_IMG_002;png;28;353;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Letizia Socci;ANU2021_019_IMG_003;png;192;353;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Juan Contreras;ANU2021_019_IMG_004;png;356;353;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Lucia Soci;ANU2021_019_IMG_005;png;521;353;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Brandon Deniz;ANU2021_019_IMG_006;png;685;353;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Maximiliano Chacón;ANU2021_019_IMG_007;png;850;353;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Samuel Muñoz;ANU2021_019_IMG_008;png;28;535;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;María Paula Morales;ANU2021_019_IMG_009;png;192;535;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Carley Ramírez;ANU2021_019_IMG_010;png;356;535;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Luciano Viloria;ANU2021_019_IMG_011;png;521;535;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Martina Moranggio;ANU2021_019_IMG_012;png;685;535;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Alexandre Alaimo;ANU2021_019_IMG_013;png;850;535;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Maia Roa;ANU2021_019_IMG_014;png;28;728;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Juliana Aguirre;ANU2021_019_IMG_015;png;192;728;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Gabriel Pañella;ANU2021_019_IMG_016;png;356;728;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Victoria Laguado;ANU2021_019_IMG_017;png;521;728;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Jorge Utrera;ANU2021_019_IMG_018;png;685;728;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Samuel Apitz;ANU2021_019_IMG_019;png;850;728;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Francisco Becerra;ANU2021_019_IMG_020;png;28;916;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Juliana Ramírez;ANU2021_019_IMG_021;png;233;916;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Sarah Gómez;ANU2021_019_IMG_022;png;439;916;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Juan Labrador;ANU2021_019_IMG_023;png;644;916;150px;50px;1.4em;SI
+pag19;boton_imagen;GRUPO B;Markus Van Groningen;ANU2021_019_IMG_024;png;850;916;150px;50px;1.4em;SI
+pag21;audio;Grupo C;;ANU2021_00X_AUD_001;mp3;;;;;;no
+pag21;gif;Grupo C;;ANU2021_021_ANI_001;gif;;;100%;;;no
+pag21;boton_imagen;Grupo C;Aimneth Velandria - Docente;ANU2021_021_IMG_001;png;101;234;150px;50px;1.4em;no
+pag21;boton_imagen;Grupo C;Lisandra Moncada - Docente;ANU2021_021_IMG_002;png;781;234;150px;50px;1.4em;no
+pag21;boton_imagen;Grupo C;Carlos Toro;ANU2021_021_IMG_003;png;53;488;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;María Stella Prato;ANU2021_021_IMG_004;png;242;488;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Ignacio Vega;ANU2021_021_IMG_005;png;432;488;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Martina Colmenares;ANU2021_021_IMG_006;png;621;488;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Piero Pérez;ANU2021_021_IMG_007;png;811;488;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Patricia Doza;ANU2021_021_IMG_008;png;53;680;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Juan F. García;ANU2021_021_IMG_009;png;242;680;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Charles Zambrano;ANU2021_021_IMG_010;png;432;680;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Maximiliano Ramírez;ANU2021_021_IMG_011;png;621;680;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Isabela Pérez;ANU2021_021_IMG_012;png;811;680;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Ignacio Chacón;ANU2021_021_IMG_013;png;53;866;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Samantha Rodríguez;ANU2021_021_IMG_014;png;242;866;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Aaron Lozano;ANU2021_021_IMG_015;png;432;866;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Emilianna Aguirre;ANU2021_021_IMG_016;png;621;866;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Marcelo López;ANU2021_021_IMG_017;png;811;866;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Amanda Matos;ANU2021_021_IMG_018;png;53;1054;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Tomás Chacón;ANU2021_021_IMG_019;png;242;1054;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Luna Paolini;ANU2021_021_IMG_020;png;432;1054;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Attila Toth;ANU2021_021_IMG_021;png;621;1054;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Natalia García;ANU2021_021_IMG_022;png;605;328;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Samuel Nieto;ANU2021_021_IMG_023;png;53;1232;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Catalina Sánchez;ANU2021_021_IMG_024;png;242;1232;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Diego Gutiérrez;ANU2021_021_IMG_025;png;432;1232;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Rebeca Contreras;ANU2021_021_IMG_026;png;621;1232;150px;30px;1.4em;no
+pag21;boton_imagen;Grupo C;Varick Lohrengel;ANU2021_021_IMG_027;png;416;328;150px;30px;1.4em;no
+pag23;audio;Grupo C;;ANU2021_00X_AUD_001;mp3;;;;;;no
+pag25;audio;INICIAL;;ANU2021_00X_AUD_001;mp3;;;;;;no
+pag27;audio;Primer Grado;;ANU2021_027_AUD_001;mp3;;;;;;no
+pag27;gif;Primer Grado;;ANU2021_027_ANI_001;gif;;;100%;;;no
+pag27;boton_imagen;Primer Grado;Rafael Zenini;ANU2021_027_IMG_001;png;73;346;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Mara Sánchez;ANU2021_027_IMG_002;png;256;346;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Rafael Morán;ANU2021_027_IMG_003;png;439;346;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Valentina Sánchez;ANU2021_027_IMG_004;png;622;346;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Amanda Pineda;ANU2021_027_IMG_005;png;806;346;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Verónica González;ANU2021_027_IMG_006;png;73;546;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Salomón Hernández;ANU2021_027_IMG_007;png;256;546;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Natalia Mantilla;ANU2021_027_IMG_008;png;439;546;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Juan Hernández;ANU2021_027_IMG_009;png;622;546;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;María Pahmer;ANU2021_027_IMG_010;png;806;546;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;José Pineda;ANU2021_027_IMG_011;png;73;753;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Salvatore Liberopoulos;ANU2021_027_IMG_012;png;256;753;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Anabella Quiróz;ANU2021_027_IMG_013;png;439;753;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Jeshua Avendaño;ANU2021_027_IMG_014;png;622;753;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Amanda Vásquez;ANU2021_027_IMG_015;png;73;953;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Luis Guerrero;ANU2021_027_IMG_016;png;256;953;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Sara Ramírez;ANU2021_027_IMG_017;png;439;953;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Andrés Herrera;ANU2021_027_IMG_018;png;622;953;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Orlando Escalante;ANU2021_027_IMG_019;png;256;1154;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Gabriela Galíndez;ANU2021_027_IMG_020;png;439;1154;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Flavia Di Gioia;ANU2021_027_IMG_021;png;622;1154;150px;50px;1.4em;SI
+pag27;boton_imagen;Primer Grado;Krisnel Arias Docente;ANU2021_027_IMG_022;png;73;1154;150px;50px;1.4em;SI
+pag29;audio;Segundo Grado;;ANU2021_029_AUD_001;mp3;;;;;;SI
+pag29;gif;Segundo Grado;;ANU2021_029_ANI_001;gif;;;80%;;;SI
+pag29;boton_imagen;Segundo Grado;Maximiliano Viña;ANU2021_029_IMG_001;png;353;329;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Maximiliano Rodríguez;ANU2021_029_IMG_002;png;528;329;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Isabella García;ANU2021_029_IMG_003;png;265;505;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Fiorella De Fillipis;ANU2021_029_IMG_004;png;428;505;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;María C. Arellano;ANU2021_029_IMG_005;png;591;505;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Lorenzo Riveros;ANU2021_029_IMG_006;png;114;556;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Luis Hernández;ANU2021_029_IMG_007;png;759;556;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Luis Brager;ANU2021_029_IMG_008;png;350;676;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Emma Avendaño;ANU2021_029_IMG_009;png;528;676;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Julieta Belandria;ANU2021_029_IMG_010;png;114;709;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Mariano Montolla;ANU2021_029_IMG_011;png;759;709;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;María I. Cárdenas;ANU2021_029_IMG_012;png;48;847;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;David Valongo;ANU2021_029_IMG_013;png;207;847;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Avril Sulbaran;ANU2021_029_IMG_014;png;366;847;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Mia Ruiloba;ANU2021_029_IMG_015;png;526;847;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Anabella Galvis;ANU2021_029_IMG_016;png;685;847;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Santiago Sanabria;ANU2021_029_IMG_017;png;845;847;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Isaaac Bances;ANU2021_029_IMG_018;png;134;989;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Julieta Matos;ANU2021_029_IMG_019;png;292;989;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Francisco Useche;ANU2021_029_IMG_020;png;450;989;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Juan Gómez;ANU2021_029_IMG_021;png;608;989;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Nicolás Chacón;ANU2021_029_IMG_022;png;766;989;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Yatnelly Flores - Docente;ANU2021_029_IMG_023;png;213;1128;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Alejandro Useche;ANU2021_029_IMG_024;png;380;1128;150px;50px;1.4em;SI
+pag29;boton_imagen;Segundo Grado;Latif Saab;ANU2021_029_IMG_025;png;548;1128;150px;50px;1.4em;SI
+pag31;audio;Tercer Grado;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag31;boton_imagen;Tercer Grado;Isabella Parra;ANU2021_031_IMG_001;png;29;339;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Carlota Ramírez;ANU2021_031_IMG_002;png;194;339;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Mia Diamanti;ANU2021_031_IMG_003;png;353;339;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Hugo J. Valero;ANU2021_031_IMG_004;png;512;339;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Miranda Sánchez;ANU2021_031_IMG_005;png;677;339;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Matías Moreno;ANU2021_031_IMG_006;png;838;339;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Alejandro Molina;ANU2021_031_IMG_007;png;35;591;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Santiago Ruiz;ANU2021_031_IMG_008;png;198;628;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;María P. Pahmer;ANU2021_031_IMG_009;png;351;547;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Emiliana Zenini;ANU2021_031_IMG_010;png;503;592;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Sara Pérez;ANU2021_031_IMG_011;png;665;592;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;José López;ANU2021_031_IMG_012;png;823;573;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Matteo Pérez;ANU2021_031_IMG_013;png;29;829;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Samantha Molina;ANU2021_031_IMG_014;png;198;829;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Renato Daza;ANU2021_031_IMG_015;png;353;740;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Adriano Duque;ANU2021_031_IMG_016;png;505;829;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Felipe Mantilla;ANU2021_031_IMG_017;png;673;829;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;David Chávez;ANU2021_031_IMG_018;png;819;785;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Sophia Molina;ANU2021_031_IMG_019;png;31;1091;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Diego Chávez;ANU2021_031_IMG_020;png;196;1016;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Carlotta Tai;ANU2021_031_IMG_021;png;355;1016;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Mathias Vega;ANU2021_031_IMG_022;png;504;1097;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Joselin Romero - Auxiliar Docente;ANU2021_031_IMG_023;png;668;1046;150px;50px;1.4em;SI
+pag31;boton_imagen;Tercer Grado;Luz Lebrum - Docente;ANU2021_031_IMG_024;png;835;1027;150px;50px;1.4em;SI
+pag33;audio;Tercer Grado;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag33;boton_imagen;Cuarto Grado;Sebastián Lizcano;ANU2021_033_IMG_001;png;173;384;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Manuela Hernández;ANU2021_033_IMG_002;png;356;384;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Ignacio Branger;ANU2021_033_IMG_003;png;539;384;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Antonella Zenini;ANU2021_033_IMG_004;png;723;384;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Federico Rocha;ANU2021_033_IMG_005;png;173;626;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Eva Fábrega;ANU2021_033_IMG_006;png;356;626;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Matías Rojewski;ANU2021_033_IMG_007;png;539;626;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Bárbara Hernández;ANU2021_033_IMG_008;png;723;626;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;José Pabón;ANU2021_033_IMG_009;png;173;870;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Sofía Padilla;ANU2021_033_IMG_010;png;356;870;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Matías Uzcátegui;ANU2021_033_IMG_011;png;539;870;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Natalia Pérez;ANU2021_033_IMG_012;png;723;870;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;David García;ANU2021_033_IMG_013;png;261;1112;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Juan Cristancho;ANU2021_033_IMG_014;png;444;1112;150px;50px;1.4em;SI
+pag33;boton_imagen;Cuarto Grado;Rosmary Contreras - Docente;ANU2021_033_IMG_015;png;627;1112;150px;50px;1.4em;SI
+pag35;audio;Quinto Grado;;ANU2021_00X_AUD_001;mp3;;;;;;SI
+pag35;boton_imagen;Quinto Grado;Ilbrahim Avendaño;ANU2021_035_IMG_001;png;75;237;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Luis Arellano;ANU2021_035_IMG_002;png;271;237;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Sara Bances;ANU2021_035_IMG_003;png;474;237;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Renata Moraggio;ANU2021_035_IMG_004;png;654;237;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Verónica Benvenuto;ANU2021_035_IMG_005;png;822;237;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Jesús Chavarro;ANU2021_035_IMG_006;png;78;448;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Matías Castillo;ANU2021_035_IMG_007;png;261;448;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Juan Guerrero;ANU2021_035_IMG_008;png;442;448;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Alejandro Jiménez;ANU2021_035_IMG_009;png;619;448;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Juliana Vásquez;ANU2021_035_IMG_010;png;795;448;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Gabriela Sánchez;ANU2021_035_IMG_011;png;77;659;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;David Rincones;ANU2021_035_IMG_012;png;250;659;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Camila Gutiérrez;ANU2021_035_IMG_013;png;416;659;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Letizia Lozano;ANU2021_035_IMG_014;png;592;659;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Félix Samir;ANU2021_035_IMG_015;png;785;659;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Joaquín Farias;ANU2021_035_IMG_016;png;75;874;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;David Acevedo;ANU2021_035_IMG_017;png;250;874;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Aaron Bances;ANU2021_035_IMG_018;png;423;874;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Anastasi Romero;ANU2021_035_IMG_019;png;595;874;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Gabriela Pañela;ANU2021_035_IMG_020;png;787;874;150px;60px;1.4em;SI
+pag35;boton_imagen;Quinto Grado;Saymar Sánchez - Docente;ANU2021_035_IMG_021;png;437;1069;150px;60px;1.4em;SI
+pag36;video;Quito Grado;;https://res.cloudinary.com/ueimm/video/upload/v1625194543/Anuario%202020-2021/ANU2021_036_VID_001_xnia1a.mp4;mp4;304;504;455px;802px;;SI
+pag37;boton_imagen;Sexto Grado;Ana S. Paolini;ANU2021_037_IMG_001;png;93;535;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Valentina Arraiz;ANU2021_037_IMG_002;png;233;535;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Ariadna Barazarte;ANU2021_037_IMG_003;png;378;535;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Sotirios Liberopoulos;ANU2021_037_IMG_004;png;518;535;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Francesco Pérez;ANU2021_037_IMG_005;png;657;535;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Orlando Useche;ANU2021_037_IMG_006;png;801;535;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Narayana Becerra;ANU2021_037_IMG_007;png;93;756;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Isabella Cacua;ANU2021_037_IMG_008;png;242;756;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Isabella Cárdenas;ANU2021_037_IMG_009;png;387;756;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Ivanna Deniz;ANU2021_037_IMG_010;png;525;756;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Pía Collazo;ANU2021_037_IMG_011;png;664;756;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Juan Fábrega;ANU2021_037_IMG_012;png;810;756;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Máxima Toth;ANU2021_037_IMG_013;png;86;972;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Nathalia Granados;ANU2021_037_IMG_014;png;226;972;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Valentina Aguirre;ANU2021_037_IMG_015;png;363;972;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Renato Diamanti;ANU2021_037_IMG_016;png;497;972;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Samantha Cmacho;ANU2021_037_IMG_017;png;650;972;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Santiago Zafra;ANU2021_037_IMG_018;png;804;972;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Miguel Vesga;ANU2021_037_IMG_019;png;222;1191;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Deniss Duque;ANU2021_037_IMG_020;png;366;1191;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Sophia Becerra;ANU2021_037_IMG_021;png;514;1191;150px;60px;1.4em;NO
+pag37;boton_imagen;Sexto Grado;Ninoska Rojas - Docente;ANU2021_037_IMG_022;png;671;1191;150px;60px;1.4em;NO
