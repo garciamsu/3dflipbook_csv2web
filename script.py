@@ -2,9 +2,15 @@ import pandas as pd
 import os
 from shutil import rmtree
 
-
 #Lectura del archivo fuente CSV
-data = pd.read_csv("source.csv") 
+df_comma = pd.read_csv("source.csv", nrows=1,sep=",")
+df_semi = pd.read_csv("source.csv", nrows=1, sep=";")
+if df_comma.shape[1]>df_semi.shape[1]:
+    print("comma delimited")
+    data = df_comma
+else:
+    print("semicolon delimited")
+    data = df_semi
 
 #Define la ruta de la carpeta
 root = os.getcwd()
