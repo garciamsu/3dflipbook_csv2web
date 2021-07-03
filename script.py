@@ -3,8 +3,7 @@ import os
 from os import remove
 from shutil import rmtree
 
-def file_is_empty(path): 
-    #print("path: "+ path + " " + str(os.stat(path).st_size))
+def file_is_empty(path):     
     return os.stat(path).st_size < 10
 
 
@@ -59,7 +58,7 @@ for pagina in paginas:
         code_url = url + row["campo"] + "." + row["extension"]
         
         if (row["tipo"] == "audio"):
-            etiqueta = """<audio class="play-on-shown pause-on-hide" src="code_url"></audio>""".replace(
+            etiqueta = """<audio loop class="play-on-shown pause-on-hide" src="code_url"></audio>""".replace(
                 'code_url', code_url)
 
         if (row["tipo"] == "video"):
@@ -70,8 +69,8 @@ for pagina in paginas:
             width: code_width;
             height: code_height;
             position: absolute;
-            left: code_xpx;
-            top: code_ypx
+            left: code_x;
+            top: code_y
             }\n\n"""
 
             etiqueta = """<video class="video_code_page_code_number play-on-shown pause-on-hide" src="code_url"></video>"""
@@ -85,56 +84,43 @@ for pagina in paginas:
             estilo = estilo.replace('code_page', pagina)
             estilo = estilo.replace('code_width', str(row["ancho"]))
             estilo = estilo.replace('code_height', str(row["alto"]))
-            estilo = estilo.replace('code_x', str(int(row['x'])))
-            estilo = estilo.replace('code_y', str(int(row['y'])))
+            estilo = estilo.replace('code_x', str(row['x']))
+            estilo = estilo.replace('code_y', str(row['y']))
             
         if (row["tipo"] == "gif"):
             if (pd.isna(row['x']) or pd.isna(row['y']) or pd.isna(row['ancho'])):
                 etiqueta = """<img width="100%" src="code_url">""".replace(
                 'code_url', code_url)
             else:
-                etiqueta = """<img style="position:absolute; left:code_xpx; top:code_ypx" src="code_url" width="code_width">""".replace(
+                etiqueta = """<img style="position:absolute; left:code_x; top:code_y" src="code_url" width="code_width">""".replace(
                 'code_url', code_url)
                 
-                etiqueta=etiqueta.replace('code_x', str(int(row['x'])))
-                etiqueta = etiqueta.replace('code_y', str(int(row['y'])))
+                etiqueta=etiqueta.replace('code_x', str(row['x']))
+                etiqueta = etiqueta.replace('code_y', str(row['y']))
                 etiqueta = etiqueta.replace('code_width', str(row["ancho"]))
 
         if (row["tipo"] == "boton_imagen"):
 
             #Sólo configura es estilo de la hoja la primera vez
             if (i == 1):
-                if (row["nombre_visible"].lower() == "si"):
-                    mensaje_css = """
-                    .clicker {
-                    outline:none;
-                    cursor:pointer;
-                    }
+                print(row["nombre_visible"].lower())
 
-                    .myDiv {
-                    position:absolute;
-                    border: 5px outset white;
-                    background-color: white;
-                    text-align: center;
-                    font-weight: bold;
-                    }\n\n"""
-                else:
-                    mensaje_css = """
-                    .clicker {
-                    outline:none;
-                    cursor:pointer;
-                    }
+                mensaje_css = """
+                .clicker {
+                outline:none;
+                cursor:pointer;
+                }
 
-                    .myDiv {
-                    position:absolute;                    
-                    text-align: center;
-                    font-weight: bold;
-                    }\n\n"""
+                .myDiv {
+                position:absolute;
+                text-align: center;
+                font-weight: bold;
+                }\n\n"""
 
             if (row["nombre_visible"].lower() == "si"):
-                code_html = """<!--  code_name  -->\n<div class="clicker_code_page_code_number myDiv" style="left:code_xpx; top:code_ypx; font-size:code_letter; width:code_width; height:code_height"  tabindex="1">code_name</div>\n<div class="hiddendiv_code_page_code_number"></div> """
+                code_html = """<!--  code_name  -->\n<div class="clicker_code_page_code_number myDiv" style="left:code_x; top:code_y; font-size:code_letter; width:code_width; height:code_height; border: 5px outset white;  background-color: white;"  tabindex="1">code_name</div>\n<div class="hiddendiv_code_page_code_number"></div> """
             else:
-                code_html = """<!--  code_name  -->\n<div class="clicker_code_page_code_number myDiv" style="left:code_xpx; top:code_ypx; font-size:code_letter; width:code_width; height:code_height"  tabindex="1"></div>\n<div class="hiddendiv_code_page_code_number"></div> """    
+                code_html = """<!--  code_name  -->\n<div class="clicker_code_page_code_number myDiv" style="left:code_x; top:code_y; font-size:code_letter; width:code_width; height:code_height; border: 0px; background-color: transparent"  tabindex="1"></div>\n<div class="hiddendiv_code_page_code_number"></div> """    
 
             code_css = """/* **************** code_name ****************  */
             .hiddendiv_code_page_code_number{
