@@ -103,8 +103,7 @@ for pagina in paginas:
 
             #Sólo configura es estilo de la hoja la primera vez
             if (i == 1):
-                print(row["nombre_visible"].lower())
-
+                
                 mensaje_css = """
                 .clicker {
                 outline:none;
@@ -167,3 +166,5 @@ for pagina in paginas:
     f_html.close()
     if (file_is_empty(name_html)):
         remove(name_html)
+
+print("Se culminó el proceso exitosamente")
