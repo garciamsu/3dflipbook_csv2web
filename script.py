@@ -57,7 +57,7 @@ for pagina in paginas:
         # Obtiene el codigo del archivo
         code_number = row["campo"][len(row["campo"])-3:len(row["campo"])]
         code_url = url + row["campo"] + "." + row["extension"]
-
+        
         if (row["tipo"] == "audio"):
             etiqueta = """<audio class="play-on-shown pause-on-hide" src="code_url"></audio>""".replace(
                 'code_url', code_url)
